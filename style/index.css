@@ -1,0 +1,92 @@
+  /* Import */
+        
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Source+Code+Pro:wght@200&display=swap');
+
+  body {
+      font-family: 'Amatic SC', cursive;
+      box-sizing: border-box;
+      background-color: #000;
+  }
+
+  /* Layout */
+  .container {
+      padding: auto;
+      color: white;
+      font-size: 1.6em;
+      margin: 16% 40%;
+  }
+
+  /* Parágrafo imersão dev*/
+  .content-p {
+      font-family: 'Source Code Pro', monospace;
+      font-weight: 600;
+      color: #FFFFFF;
+  }
+
+  /* Borda inferior ao parágrafo*/
+  .border {
+      border: 1px outset orange;
+  }
+  /* Botão */
+  button {
+      background-color: orange;
+      font-size: 1em;
+      color: white;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 3%;
+      font-family: 'Amatic SC', cursive;
+      font-weight: 600;
+      padding: 3px 50px;
+  }
+  button:hover {
+      color:black;
+      background-color: rgb(230, 156, 19);
+  }
+
+  .write {
+      font-size: 1em;
+      color: #FFF;
+  }
+  input {
+      background-color: rgb(0, 0, 0);
+      width: 50%;
+      color: #FFF;
+      font-family: 'Bebas Neue';
+      border-radius: 5%;
+      text-align: center;
+      padding: 5px 0px;
+      margin: auto;
+  }
+  /* Aplicando estilização no "imersão dev" */
+  span {
+      color: orange;
+      font-weight: 600;
+      font-size: 1.1em;
+      text-transform: uppercase;
+  }
+
+  /* Animação do underline */
+  .underline-animation {
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes underline {
+      20% {
+          color: #000;
+      }
+
+      50% {
+          color: orange;
+      }
+
+      70% {
+          color: #000;
+      }
+
+      90% {
+          color: orange;
+      }
+  }
