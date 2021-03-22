@@ -15,8 +15,8 @@ function conversor() {
     //Resultado
     let mostrarValor = document.querySelector("div.write")
     
-    mostrarValor.innerHTML = `A temperatura em celsius é: <strong>C°= ${valorDecimal}</strong>`
-    if(valorDigitado.length == 0 || valorDigitado <= 0) {
+    mostrarValor.innerHTML = `A temperatura em celsius é: <strong>C° ${valorDecimal}</strong>`
+    if(valorDigitado.length == 0 || valorDigitado == 0) {
         mostrarValor.innerHTML = "[ERRO] Por favor digite um número válido!"
     }
 }
